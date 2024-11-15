@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+  }
+  i {
+    margin: 10px;
+  }
+  .nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+  .menu a {
+    text-decoration: none;
+    margin: 8px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: bolder;
+    font-weight: lighter;
+  }
+  .main {
+    border: none;
+    background-image: url(./img/background\ \(1\).jpg);
+    background-size: cover; /*sayfayı kaplar*/
+    height: 530px;
+    width: 100%;
+    /*
+    align-items: center;
+    display: flex;
+    justify-content: center;
+     */
+  }
+  .main p {
+    text-align: center;
+    padding: 160px 0 300px;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    padding-bottom: 4px;
+  }
+  .line {
+    width: 160px;
+    border-bottom: 2px solid red;
+    margin: 0px auto;
+  }
+  span {
+    font-size: x-large;
+  }
+  #feel {
+    font-family: "Kablammo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "MORF" 0;
+    font-weight: bold;
+    margin-top: -90px;
+    font-size: 20px;
+  }
+  #long {
+    margin-top: -100px;
+    margin-bottom: 17px;
+  }
+  #submit {
+    background-color: rgb(207, 63, 123);
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .footer {
+    background-color: black;
+    height: 550px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    text-align: center;
+  }
+  .footer a {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    text-align: center;
+  }
+  footer p {
+    margin: 60px 0px 0px -50px;
+    width: 250px;
+    text-align: center;
+  }
+  #music,
+  #person,
+  #camera {
+    border: 5px solid none;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 45px;
+    margin-left: 150px;
+    /* border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+  }
+  #music {
+    background-color: #FF0078;
+  }
+  #person {
+    background-color: yellow;
+  }
+  #camera {
+    background-color: rgb(30, 167, 30);
+  }
+  .footer a i {
+    margin: 40px 0 0 45px;
+  }
